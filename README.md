@@ -1,7 +1,7 @@
-# Satellite Image Representations for Quantum Classifieres
-Code repository for "Satellite Image Representations for Quantum Classifieres".
+# Satellite Image Representations for Quantum Classifiers
+Code repository for "Satellite Image Representations for Quantum Classifiers".
 
-To train a model with default parameters simply execute:
+To train a model with default parameters, simply execute:
 ```bash
 python train.py
 ```
