@@ -5,7 +5,7 @@ Code repository for the article "Satellite Image Representations for Quantum Cla
 We provide a Dockerfile for an easy setup.
 Clone the repository and, in the top-level directory, execute:
 ```bash
-docker build .
+docker build -t sirfqc .
 ```
 Then, start the container.
 
@@ -29,5 +29,6 @@ To train models for a one-versus-rest multiclass classification with default par
 python train_ovr.py
 ```
 
-![Example result for a one-versus-rest multiclass classification of the EuroSAT dataset with VGG16, autoencoder and FVQC.](example.png)
-*Figure: Example result for a one-versus-rest multiclass classification of the EuroSAT dataset with VGG16, autoencoder and FVQC.*
+| ![Example result for a one-versus-rest multiclass classification of the EuroSAT dataset with VGG16, autoencoder and FVQC.](example.png) |
+|:--:|
+| *Confusion matrix as an example result for a one-versus-rest multiclass classification of the EuroSAT dataset with VGG16, autoencoder and FVQC.* |
