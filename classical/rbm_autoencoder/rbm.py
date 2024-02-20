@@ -1,4 +1,4 @@
-"""Implementation of a Restricted Boltzmann Machine based on: https://github.com/eugenet12/pytorch-rbm-autoencoder"""
+"""Adapted and changed implementation of eugenet12 restricted Boltzmann machine based on: https://github.com/eugenet12/pytorch-rbm-autoencoder"""
 import torch
 
 #DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

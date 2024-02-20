@@ -24,8 +24,8 @@ from sklearn.metrics import precision_score, recall_score, f1_score
 import tensorflow_quantum as tfq
 
 from classical.autoencoderModels import *
-from classical.dae import DAE
-from classical.rbm import train_rbm
+from classical.rbm_autoencoder.dae import DAE
+from classical.rbm_autoencoder.rbm import train_rbm
 from quantum.embeddings import basis_embedding, angle_embedding
 from quantum.fvqc import create_fvqc
 from quantum.gvqc import create_gvqc

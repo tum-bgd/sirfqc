@@ -1,4 +1,4 @@
-"""Implementation of a Deep Autoencoder based on: https://github.com/eugenet12/pytorch-rbm-autoencoder"""
+"""Adapted and changed implementation of eugenet12 deep autoencoder based on: https://github.com/eugenet12/pytorch-rbm-autoencoder"""
 import torch
 import torch.nn as nn
 
